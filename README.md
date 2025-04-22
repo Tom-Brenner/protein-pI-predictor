@@ -6,6 +6,7 @@ sdk: gradio
 sdk_version: 5.25.2
 app_file: app.py
 license: apache-2.0
+pinned: false
 ---
 
 # Protein pI Predictor
