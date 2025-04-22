@@ -1,13 +1,11 @@
-# protein-pI-predictor
-Predict protein isoelectric points (pI) using a state-of-the-art ensemble model that combines a bidirectional LSTM network and a globally-attentive RoPE-based transformer.
-
 # Protein pI Predictor
 
-![header](./header.png)
+![header](header.png)
 
 Predict protein isoelectric points (pI) using a state-of-the-art ensemble model that combines a bidirectional LSTM network and a globally-attentive RoPE-based transformer.
 
 ---
+
 ## 🔬 What It Does
 - Accepts a single protein sequence, a FASTA file, or a CSV file of sequences.
 - Computes pI as the sum of a baseline Henderson–Hasselbalch estimate and a learned correction from two deep learning models.
