@@ -1,0 +1,4 @@
+gradio==5.25.2
+torch
+biopython
+pandas
