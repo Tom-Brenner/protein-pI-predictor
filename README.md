@@ -1,10 +1,10 @@
 ---
-title: {{Protein pI Predictor}}
-emoji: {{emoji}}
-colorFrom: {{pink}}
-colorTo: {{cyan}}
-sdk: {{sdk}}
-sdk_version: "{{sdkVersion}}"
+title: 'Protein pI Predictor'
+emoji: 'clap'
+colorFrom: 'pink'
+colorTo: 'blue'
+sdk: 'gradio'
+sdk_version: ""
 app_file: app.py
 pinned: false
 ---
