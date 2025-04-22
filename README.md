@@ -26,7 +26,7 @@ Predict protein isoelectric points (pI) using a state-of-the-art ensemble model 
 
 ## 🚀 Try It Live
 Hosted on Hugging Face Spaces:  
-👉 https://huggingface.co/spaces/YOUR_USERNAME/YOUR_APP_NAME
+👉 https://huggingface.co/spaces/Tom-Brenner/protein-pI-predictor
 
 ---
 
