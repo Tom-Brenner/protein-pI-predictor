@@ -1,10 +1,10 @@
 ---
 title: 'Protein pI Predictor'
-emoji: 'clap'
+emoji: 👏
 colorFrom: 'pink'
 colorTo: 'blue'
 sdk: 'gradio'
-sdk_version: ""
+sdk_version: "sdk_version: 4.24.0"
 app_file: app.py
 pinned: false
 ---
