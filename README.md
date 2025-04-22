@@ -1,6 +1,6 @@
 # Protein pI Predictor
 
-![header](header.png)
+![header](./header.png)
 
 Predict protein isoelectric points (pI) using a state-of-the-art ensemble model that combines a bidirectional LSTM network and a globally-attentive RoPE-based transformer.
 
