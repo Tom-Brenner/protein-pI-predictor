@@ -1,3 +1,15 @@
+---
+title: {{Protein pI Predictor}}
+emoji: {{emoji}}
+colorFrom: {{pink}}
+colorTo: {{cyan}}
+sdk: {{sdk}}
+sdk_version: "{{sdkVersion}}"
+app_file: app.py
+pinned: false
+---
+
+
 # Protein pI Predictor
 
 ![header](./header.png)
