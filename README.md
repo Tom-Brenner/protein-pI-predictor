@@ -24,6 +24,19 @@ Predict protein isoelectric points (pI) using a state-of-the-art ensemble model 
 
 ---
 
+## Performance
+
+| Model | Outliers <br>(Peptide) | Outliers <br>(Protein) | RMSE <br>(Peptide) | RMSE <br>(Protein) |
+|-------|----------------------:|----------------------:|-------------------:|-------------------:|
+| **Ours**              |  874 | 249 | 0.225 | 0.87 |
+| Brenner GNN 2022✝     | 1 638 | 251 | 0.271 | 0.87 |
+| IPC2.Conv2D✝✝         | 2 691 |  –  | 0.222 |  –  |
+| IPC2.svr.1✝✝          | 2 490 | 247 | 0.23  | 0.85 |
+
+✝ Graph neural networks for prediction of protein isoelectric points; Brenner 2022  
+✝✝ Prediction of isoelectric point and pKa dissociation constants; Kozlowski 2021, *IPC 2.0*, *Nucleic Acids Research* 49, W285–W292
+
+---
 ## 🚀 Try It Live
 Hosted on Hugging Face Spaces:  
 👉 https://huggingface.co/spaces/Tom-Brenner/protein-pI-predictor
