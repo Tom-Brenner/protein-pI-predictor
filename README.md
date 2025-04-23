@@ -32,7 +32,7 @@ Predict protein isoelectric points (pI) using a state-of-the-art ensemble model 
 | Brenner GNN 2022✝     | 1638 | 251 | 0.271 | 0.87 |
 | IPC2.Conv2D✝✝         | 2691 |  –  | 0.222 |  –  |
 | IPC2.svr.1✝✝          | 2490 | 247 | 0.23  | 0.85 |
-
+Outliers: |error| > 0.5; peptide & protein datasets: 20774 & 581 samples✝✝   
 ✝ [Graph neural networks for prediction of protein isoelectric points; Brenner 2022](https://chemrxiv.org/engage/chemrxiv/article-details/639b3135b9c5f656fdd3fe02)  
 ✝✝ [Prediction of isoelectric point and pKa dissociation constants; Kozlowski 2021, *IPC 2.0*, *Nucleic Acids Research* 49, W285–W292](https://academic.oup.com/nar/article/49/W1/W285/6255695)
 
