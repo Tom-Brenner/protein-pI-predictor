@@ -27,10 +27,10 @@ pinned: false
 
 | Model | Outliers <br>(Peptide) | Outliers <br>(Protein) | RMSE <br>(Peptide) | RMSE <br>(Protein) |
 |-------|----------------------:|----------------------:|-------------------:|-------------------:|
-| **Ours**              |  874 | 249 | 0.225 | 0.87 |
-| Brenner GNN 2022✝     | 1638 | 251 | 0.271 | 0.87 |
-| IPC2.Conv2D✝✝         | 2691 |  –  | 0.222 |  –  |
-| IPC2.svr.1✝✝          | 2490 | 247 | 0.23  | 0.85 |
+| **Ours**             |  874 | 249 | 0.225 | 0.87 |
+| GNN 2022✝     | 1638 | 251 | 0.271 | 0.87 |
+| IPC2.Conv2D✝✝        | 2691 |  –  | 0.222 |  –  |
+| IPC2.svr.1✝✝         | 2490 | 247 | 0.23  | 0.85 |
 
 Outliers: |error| > 0.5; peptide & protein datasets: 29774 & 581 samples✝✝   
 ✝ [Graph neural networks for prediction of protein isoelectric points; Brenner 2022](https://chemrxiv.org/engage/chemrxiv/article-details/639b3135b9c5f656fdd3fe02)  
