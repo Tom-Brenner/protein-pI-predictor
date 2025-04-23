@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protein pI Predictor</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .button-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #2d8cf0;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Protein pI Predictor</h1>
+  <p>Predict isoelectric points (pI) of proteins using a state-of-the-art model that averages predictions from a bidirectional LSTM network and a globally attentive RoPE-based transformer.</p>
+
+  <img src="header.png" alt="Protein predictor header illustration">
+
+  <p>This tool accepts a single protein sequence, a FASTA file, or a CSV file of sequences and computes the predicted isoelectric point (pI).</p>
+
+  <a class="button-link" href="https://huggingface.co/spaces/Tom-Brenner/protein-pI-predictor" target="_blank">
+    🔬 Try the live demo on Hugging Face
+  </a>
+
+  <!-- Optional inline embed -->
+  <!--
+  <iframe src="https://huggingface.co/spaces/Tom-Brenner/protein-pI-predictor"></iframe>
+  -->
+</body>
+</html>
